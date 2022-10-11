@@ -1,0 +1,163 @@
+body {
+    background-color: #1F1F1F;
+    background-image: url(bg1.png), url(bg2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    height: 100vh;
+    background-size: 350px;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 290px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.navbar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    transition: .3s ease;
+}
+
+.navbar ul li a::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: #c8308b;
+    left: 0;
+    bottom: -8px;
+    transition: .3s ease;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+.navbar ul li a:hover {
+    color: #c8308b;
+}
+
+.navbar input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid aliceblue;
+    color: aliceblue;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar input:focus {
+    border-color: #c8308b;
+    transition: .3s;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: larger;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+.heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    padding-left: 6.3em;
+    ;
+}
+
+.image1 {
+    font-style: oblique;
+    display: flex;
+}
+
+.square1 {
+    height: 393px;
+    width: 313px;
+    background-color: #555;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+.square2 {
+    height: 372px;
+    width: 402px;
+    background-color: #555;
+    margin-top: 70px;
+    transition: 1s;
+}
+
+.square3 {
+    height: 372px;
+    width: 402px;
+    background-color: #555;
+    margin-top: 70px;
+    transition: 1s;
+}
+
+.square4 {
+    height: 393px;
+    width: 313px;
+    background-color: #555;
+    margin-top: 50px;
+}
+
+.squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.square1:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.square2:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.square3:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.square4:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Rectangle 6 */
