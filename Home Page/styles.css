@@ -100,7 +100,11 @@ h3 {
     width: 313px;
     background-color: #555;
     margin-top: 50px;
-    transition: 1s;
+    transition: 0.5s;
+    max-width: 313px;
+    max-height: 393px;
+    background-image: url("https://media.istockphoto.com/vectors/watercolor-brushes-on-white-backdrop-colorful-art-vector-set-vector-id1251219486");
+    background-size: cover;
 }
 
 .square2 {
@@ -108,7 +112,9 @@ h3 {
     width: 402px;
     background-color: #555;
     margin-top: 70px;
-    transition: 1s;
+    transition: 0.5s;
+    background-image: url("https://cdn.pixabay.com/photo/2016/02/19/10/59/art-1209519_1280.jpg");
+    background-size: cover;
 }
 
 .square3 {
@@ -116,7 +122,9 @@ h3 {
     width: 402px;
     background-color: #555;
     margin-top: 70px;
-    transition: 1s;
+    transition: 0.5s;
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731_1280.jpg");
+    background-size: cover;
 }
 
 .square4 {
@@ -124,6 +132,9 @@ h3 {
     width: 313px;
     background-color: #555;
     margin-top: 50px;
+    transition: 0.5s;
+    background-image: url("https://cdn.pixabay.com/photo/2020/04/07/17/01/chicks-5014152_1280.jpg");
+    background-size: cover;
 }
 
 .squares {
@@ -157,6 +168,7 @@ h3 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 90px;
 }
 
 
